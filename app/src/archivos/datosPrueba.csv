@@ -1,0 +1,64 @@
+Date;location;Gender;Age Group;Incident;Days Lost;Plant;Report;Shift;Department;Incident Cost;WkDay;Month;Year
+1-Jan-20;Multiple;Male;25-34;Burn;0;Iowa;Near Miss;Afternoon;Painting;$0;Wed;$1;$2.020
+3-Jan-20;N/A;Male;35-49;Vehicle;0,5;Alabama;Lost Time;Day;Fabrication;$3.367;Fri;$1;$2.020
+3-Jan-20;Eye;Male;18-24;Cut;0;Georgia;Near Miss;Day;Administration;$0;Fri;$1;$2.020
+4-Jan-20;Legs;Female;50+;Falling object;0;Iowa;Near Miss;Day;Painting;$0;Sat;$1;$2.020
+7-Jan-20;Legs;Male;25-34;Lifting;0;Ohio;Near Miss;Day;Painting;$0;Tue;$1;$2.020
+11-Jan-20;N/A;Female;50+;Crush & Pinch;0;Georgia;First Aid;Afternoon;Security;$132;Sat;$1;$2.020
+11-Jan-20;Neck;Male;25-34;Crush & Pinch;3,5;Iowa;Lost Time;Day;Purchasing;$4.872;Sat;$1;$2.020
+12-Jan-20;Feet;Male;35-49;Burn;1,5;California;Lost Time;Night;Administration;$1.248;Sun;$1;$2.020
+15-Jan-20;N/A;Male;18-24;Fall;0;Florida;First Aid;Afternoon;Maintenance;$29;Wed;$1;$2.020
+16-Jan-20;Arms;Male;50+;Crush & Pinch;4,5;Florida;Lost Time;Afternoon;Administration;$2.525;Thu;$1;$2.020
+18-Jan-20;N/A;Female;35-49;Falling object;0;Iowa;First Aid;Night;Shipping;$59;Sat;$1;$2.020
+23-Jan-20;Neck;Male;35-49;Crush & Pinch;0;Alabama;Medical Claim;Afternoon;Shipping;$1.947;Thu;$1;$2.020
+26-Jan-20;Eye;Male;35-49;Vehicle;0;Florida;Medical Claim;Day;Finishing;$2.268;Sun;$1;$2.020
+27-Jan-20;Eye;Male;50+;Burn;0;Texas;Medical Claim;Day;Maintenance;$628;Mon;$1;$2.020
+27-Jan-20;Eye;Male;35-49;Burn;0;Georgia;First Aid;Night;Finishing;$77;Mon;$1;$2.020
+27-Jan-20;Back;Male;50+;Cut;0;Ohio;First Aid;Day;Shipping;$341;Mon;$1;$2.020
+30-Jan-20;Arms;Male;18-24;Burn;0;Montana;Near Miss;Afternoon;Maintenance;$0;Thu;$1;$2.020
+30-Jan-20;Hands;Male;35-49;Fall;0;California;Medical Claim;Day;Melting;$2.007;Thu;$1;$2.020
+1-Feb-20;Multiple;Male;50+;Crush & Pinch;0;Illinois;First Aid;Night;Painting;$338;Sat;$2;$2.020
+3-Feb-20;Arms;Male;35-49;Fall;4;Ohio;Lost Time;Night;Maintenance;$1.196;Mon;$2;$2.020
+4-Feb-20;Head;Male;18-24;Lifting;0;Montana;Near Miss;Night;Shipping;$0;Tue;$2;$2.020
+9-Feb-20;Feet;Male;35-49;Crush & Pinch;0;Montana;First Aid;Afternoon;Melting;$180;Sun;$2;$2.020
+9-Feb-20;Head;Male;25-34;Equipment;4,5;Florida;Lost Time;Afternoon;Shipping;$3.784;Sun;$2;$2.020
+10-Feb-20;Feet;Male;35-49;Burn;1,5;Texas;Lost Time;Day;Melting;$4.414;Mon;$2;$2.020
+10-Feb-20;Head;Male;35-49;Slip/trip;2,5;Ohio;Lost Time;Afternoon;Security;$2.790;Mon;$2;$2.020
+11-Feb-20;N/A;Male;25-34;Slip/trip;0;Illinois;First Aid;Afternoon;Administration;$394;Tue;$2;$2.020
+12-Feb-20;Hands;Male;50+;Fall;4;Montana;Lost Time;Afternoon;Finishing;$4.743;Wed;$2;$2.020
+13-Feb-20;N/A;Male;50+;Burn;4,5;Illinois;Lost Time;Night;Finishing;$3.417;Thu;$2;$2.020
+13-Feb-20;Legs;Male;25-34;Crush & Pinch;0;Alabama;Medical Claim;Night;Painting;$2.337;Thu;$2;$2.020
+14-Feb-20;Abdomen;Male;25-34;Equipment;0;Georgia;Near Miss;Night;Shipping;$0;Fri;$2;$2.020
+16-Feb-20;Abdomen;Male;50+;Slip/trip;0;California;First Aid;Day;Fabrication;$207;Sun;$2;$2.020
+17-Feb-20;Multiple;Female;35-49;Fall;2;Ohio;Lost Time;Night;Maintenance;$2.544;Mon;$2;$2.020
+19-Feb-20;Multiple;Female;35-49;Equipment;0;Montana;Medical Claim;Day;Administration;$3.411;Wed;$2;$2.020
+20-Feb-20;Back;Male;25-34;Slip/trip;0;California;Near Miss;Afternoon;Fabrication;$0;Thu;$2;$2.020
+22-Feb-20;N/A;Male;25-34;Equipment;0;Georgia;Medical Claim;Afternoon;Fabrication;$4.800;Sat;$2;$2.020
+27-Feb-20;Neck;Male;50+;Equipment;0;Texas;Medical Claim;Night;Maintenance;$3.339;Thu;$2;$2.020
+28-Feb-20;Back;Male;50+;Lifting;5;Montana;Lost Time;Night;Fabrication;$4.969;Fri;$2;$2.020
+1-Mar-20;Trunk;Male;18-24;Fall;0;Montana;First Aid;Afternoon;Shipping;$360;Sun;$3;$2.020
+3-Mar-20;Eye;Male;35-49;Burn;0;Iowa;Near Miss;Afternoon;Shipping;$0;Tue;$3;$2.020
+3-Mar-20;N/A;Male;50+;Crush & Pinch;2,5;Florida;Lost Time;Day;Maintenance;$4.718;Tue;$3;$2.020
+6-Mar-20;Eye;Male;25-34;Burn;0;Ohio;Near Miss;Night;Shipping;$0;Fri;$3;$2.020
+6-Mar-20;Head;Male;18-24;Cut;0;Montana;First Aid;Day;Shipping;$456;Fri;$3;$2.020
+7-Mar-20;Feet;Male;18-24;Fall;0;Alabama;First Aid;Night;Administration;$307;Sat;$3;$2.020
+11-Mar-20;Arms;Male;35-49;Cut;0;Ohio;Near Miss;Day;Maintenance;$0;Wed;$3;$2.020
+12-Mar-20;Neck;Female;18-24;Fall;0;Florida;Medical Claim;Day;Administration;$4.933;Thu;$3;$2.020
+17-Mar-20;Abdomen;Male;25-34;Slip/trip;4,5;Iowa;Lost Time;Day;Fabrication;$3.146;Tue;$3;$2.020
+20-Mar-20;Eye;Male;35-49;Lifting;0;Montana;Near Miss;Day;Security;$0;Fri;$3;$2.020
+21-Mar-20;Back;Male;35-49;Falling object;0;Ohio;Medical Claim;Night;Melting;$3.084;Sat;$3;$2.020
+23-Mar-20;Multiple;Male;35-49;Falling object;0;Florida;Near Miss;Afternoon;Finishing;$0;Mon;$3;$2.020
+3-Apr-20;Legs;Male;18-24;Burn;0;California;First Aid;Night;Painting;$260;Fri;$4;$2.020
+4-Apr-20;Trunk;Male;25-34;Equipment;0;Illinois;First Aid;Afternoon;Melting;$40;Sat;$4;$2.020
+4-Apr-20;Back;Male;25-34;Vehicle;0;Montana;Medical Claim;Day;Finishing;$2.615;Sat;$4;$2.020
+4-Apr-20;Arms;Male;35-49;Falling object;4,5;Montana;Lost Time;Day;Administration;$450;Sat;$4;$2.020
+6-Apr-20;N/A;Male;18-24;Slip/trip;0;Illinois;Medical Claim;Night;Finishing;$4.462;Mon;$4;$2.020
+7-Apr-20;Legs;Male;25-34;Lifting;0;Ohio;First Aid;Night;Purchasing;$76;Tue;$4;$2.020
+12-Apr-20;N/A;Male;25-34;Fall;0;Ohio;First Aid;Night;Maintenance;$297;Sun;$4;$2.020
+13-Apr-20;Eye;Female;50+;Vehicle;4,5;Alabama;Lost Time;Night;Fabrication;$1.152;Mon;$4;$2.020
+13-Apr-20;Legs;Male;18-24;Slip/trip;0;Illinois;Near Miss;Day;Finishing;$0;Mon;$4;$2.020
+14-Apr-20;Back;Male;50+;Burn;0;Texas;First Aid;Night;Purchasing;$173;Tue;$4;$2.020
+14-Apr-20;Arms;Male;50+;Fall;0;Montana;Near Miss;Night;Finishing;$0;Tue;$4;$2.020
+15-Apr-20;Back;Male;35-49;Falling object;1,5;Illinois;Lost Time;Afternoon;Shipping;$4.731;Wed;$4;$2.020
+16-Apr-20;Eye;Male;50+;Burn;0;Iowa;First Aid;Afternoon;Painting;$155;Thu;$4;$2.020
+17-Apr-20;Abdomen;Male;25-34;Crush & Pinch;3;Georgia;Lost Time;Night;Administration;$3.425;Fri;$4;$2.020
