@@ -100,16 +100,6 @@ pip install -r requirements.txt
 - ✅ Lectura y procesamiento de CSV con pandas  
 - ✅ Inserción en SQLite con nombre de tabla dinámico  
 - ✅ Endpoints funcionales de creación, inserción, borrado y consulta
-
----
-
-## 📈 Mejoras sugeridas
-
-- Implementar manejo de errores y validación de inputs
-- Añadir autenticación o control de acceso
-- Permitir subida directa de CSV vía POST
-- Soporte para múltiples formatos (JSON, XLSX, etc.)
-
 ---
 
 ## ✍️ Autor
