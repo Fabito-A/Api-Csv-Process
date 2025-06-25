@@ -1,18 +1,118 @@
-# Api Csv Process
-Se realiza la creacion del la logica encargada de procesar el archivo csv y comunicarse con la base de datos
-Por el momento esta dividido en 2 archivos python controlador.py y procesar_Csv
-para controlador.py se implemento el servidor flask que atendera las peticiones externas tales como: 
-crear una base de datos si no existe en el directorio Proyecto_web/app/database,
-insertar datos a partir de un archivo csv(dentro de la carpeta Proyecto_web/app/src/archivos se encuentra un csv de ejemplo)
-eliminar la tabla de la base de datos
-insertar los datos del archivo en la base de datos que se podra consultar mediante un objeto json 
+# 📦 Api‑Csv‑Process
 
-para procesar_Csv.py es un modulo encargado de leer el archivo csv mediante la libreria pandas y que a su vez 
-se encargara de realizar la insercion de data con el comando sql propio de la libreria eso incluye la tabla bajo el 
-nombre del archivo fuente 
+API en Flask para procesar archivos CSV y gestionar una base de datos SQLite.
 
-por el momento para el despliegue del servidor se debe ejecutar el archivo controlador.py 
-acceder al navegador web http://127.0.0.1:5000 
+---
+
+## 🗂️ Estructura del proyecto
+
+```
+Api‑Csv‑Process/
+├── app/
+│   ├── database/                # Carpeta para la base de datos SQLite
+│   ├── src/
+│   │   └── archivos/            # CSV de ejemplo
+│   └── procesar_Csv.py         # Módulo de procesamiento CSV
+└── controlador.py              # Servidor Flask y rutas API
+```
+
+---
+
+## 🚀 Funcionalidades
+
+### 1. `controlador.py`
+
+Implementa las siguientes rutas en Flask:
+
+- **`GET /creaDb`**  
+  Crea `basedatos_001.sqlite3` en `app/database` si no existe.
+
+- **`GET /insertarCsv/<nombre_archivo>`**  
+  Inserta datos desde `app/src/archivos/<nombre_archivo>.csv` en una tabla con el mismo nombre (sin extensión).
+
+- **`GET /borrarTb/<nombre_tabla>`**  
+  Elimina la tabla especificada en la base de datos.
+
+- **`GET /consultar`**  
+  Devuelve todos los registros de la base de datos en formato JSON.
+
+Para iniciar el servidor:
+```bash
+python controlador.py
+```
+Luego, accede a `http://127.0.0.1:5000`.
+
+---
+
+### 2. `procesar_Csv.py`
+
+- Lee el archivo CSV con **pandas**.
+- Inserta los datos directamente en la base de datos, creando una tabla con el nombre del archivo (sin extensión).
+- Utiliza `DataFrame.to_sql()` para la inserción automática.
+
+---
+
+## 📌 Endpoints disponibles
+
+| Ruta                                  | Método | Descripción                                                  |
+|---------------------------------------|--------|--------------------------------------------------------------|
+| `/creaDb`                             | GET    | Crear base de datos si no existe                            |
+| `/insertarCsv/<nombre_archivo>`       | GET    | Insertar datos del CSV en tabla (nombre = archivo)          |
+| `/borrarTb/<nombre_tabla>`            | GET    | Eliminar tabla en SQLite                                    |
+| `/consultar`                          | GET    | Obtener todas las tablas y registros en formato JSON        |
+
+---
+
+## 📚 Dependencias
+
+Agrega estas líneas en `requirements.txt`:
+
+```
+flask
+pandas
+```
+
+Instalación:
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🧪 Ejemplo de uso
+
+1. Coloca tu archivo CSV en `app/src/archivos/`.
+2. Inicia el servidor:
+   ```bash
+   python controlador.py
+   ```
+3. Accede a la API desde tu navegador o vía `curl`:
+   - `GET /creaDb`
+   - `GET /insertarCsv/mi_archivo`
+   - `GET /consultar`
+   - `GET /borrarTb/mi_archivo`
+
+---
+
+## ✅ Estado actual
+
+- ✅ Creación de la base de datos automática  
+- ✅ Lectura y procesamiento de CSV con pandas  
+- ✅ Inserción en SQLite con nombre de tabla dinámico  
+- ✅ Endpoints funcionales de creación, inserción, borrado y consulta
+
+---
+
+## 📈 Mejoras sugeridas
+
+- Implementar manejo de errores y validación de inputs
+- Añadir autenticación o control de acceso
+- Permitir subida directa de CSV vía POST
+- Soporte para múltiples formatos (JSON, XLSX, etc.)
+
+---
+
+## ✍️ Autor
 
 http://127.0.0.1:5000/consultar <-  consulta el contenido de la base de datos con un formato json
 http://127.0.0.1:5000/borrarTb/"nombre base datos" <-borra el contenido de la base de datos
