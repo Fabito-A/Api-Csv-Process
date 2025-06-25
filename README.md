@@ -102,8 +102,6 @@ pip install -r requirements.txt
 - ✅ Endpoints funcionales de creación, inserción, borrado y consulta
 ---
 
-## ✍️ Autor
-
 http://127.0.0.1:5000/consultar <-  consulta el contenido de la base de datos con un formato json
 http://127.0.0.1:5000/borrarTb/"nombre base datos" <-borra el contenido de la base de datos
 http://127.0.0.1:5000/insertarCsv/"nombre archivo" <-inserta los registros bajo el nombre del archivo que debe estar por el momento ubicado en Proyecto_web/app/src/archivos 
